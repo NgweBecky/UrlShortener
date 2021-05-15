@@ -1,0 +1,12 @@
+# django #
+# the ** implies ignoring everything within that directory.
+# the *  implies ignoring every file name with .sqlite3  as extension.
+# python always compiles the codes to byte code and saved in the .pyc file. 
+# Nothing much is done with it, so it is ignored.
+
+urlShort/**
+url/__pycache__/**  
+*.pyc
+*.sqlite3
+manage.py
+urlShortener/**
